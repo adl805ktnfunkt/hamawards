@@ -1,0 +1,123 @@
+body {
+  background: url(bga.png) repeat; 
+  text-align: center;
+  margin:5%;
+  background-size: 30%;
+}
+
+.big {
+font-size:55px; margin:0
+}
+
+        .firstcontainer {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+  
+
+#content{
+  border: 1px solid #fcfcfc;
+  /*background-color: white;*/
+  /*opacity:0.9;*/
+  /* use background instead of opacity, so images will show without opacity */
+  background: rgba(255, 255, 255, 0.90);
+  border-radius: 5px;	
+  justify-content: center;
+  /*https://getcssscan.com/css-box-shadow-examples*/
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  overflow:hidden; /*iphone*/
+  margin-left:10vw; max-width:70vw;
+  padding-left:15px;
+}
+
+
+
+.thumbnail {
+max-width:350px;
+height:auto;
+}
+
+.thumbnail-test {
+border: 1px solid black;
+}
+
+/*SSTV iframe*/
+#sstv, #qso, #qrz, #awards{
+max-width:1280px;
+height:520px;
+width:100%;
+overflow:hidden !important;
+}
+
+#qrz{
+height:552px;
+}
+.internetnl{
+max-height:25px; 
+width:auto;
+}
+
+iframe { border: none; }
+
+a {
+text-decoration:none;
+}
+
+big {
+font-size:55px;
+}
+
+.xiegu {
+float:left;
+padding:25px;
+}
+
+.left {
+  text-align: left;
+}
+
+/*SSTV iframe*/
+@media only screen and (max-width: 800px) {
+   #content{
+   margin-left:0; max-width:90vw;
+   }
+   .sstv, #sstv {
+      max-width:80vw;
+   }
+   .xiegu {
+      display: none;
+   }
+   .left {
+      text-align: center;
+   }
+   body {
+      background-size: 100%; /*remove after easter*/
+   }
+}
+
+.pc1kshack {
+width:90%;
+max-width:700px;
+height:auto;
+border: 1px solid #cccccc;
+border-radius: 5px;
+}
+
+.qrzaward {
+width:130px;
+height:auto;
+border-radius: 5px;
+background-color: white;
+margin:3px;
+border: 1px solid #cccccc;
+}
+
+.korenaer {
+max-width:90%;
+max-height: 500px;
+width: auto;
+}
