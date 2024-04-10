@@ -9,7 +9,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
-2024-04-09 Changed by Michael Linder OE8YML in order to work for OE8SPECK Special Call
+2024-04-09 Changed by Michael Linder OE8YML in order to work to provide a BLUEPRINT
 */
 
 // curl -d "KEY=?????????????&ACTION=FETCH" -X POST https://logbook.qrz.com/api
